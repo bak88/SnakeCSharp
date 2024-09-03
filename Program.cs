@@ -4,12 +4,17 @@
     {
         static void Main(string[] args)
         {
-            int x1 = 1;
-            int y1 = 3;
-            char sym1 = '*';
+            Point p1 = new();
+            p1.x = 1;
+            p1.y = 3;
+            p1.sym = '*';
+            Draw(p1.x, p1.y, p1.sym);
 
-            Draw(x1, y1, sym1);
-
+            Point p2 = new();
+            p1.x = 1;
+            p1.y = 3;
+            p1.sym = '*';
+            Draw(p1.x, p1.y, p1.sym);
             int x2 = 4;
             int y2 = 5;
             char sym2 = '#';
