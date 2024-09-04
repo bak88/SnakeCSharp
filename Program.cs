@@ -4,16 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Point p1 = new();
-            p1.x = 1;
-            p1.y = 3;
-            p1.sym = '*';
+            Point p1 = new(1, 3, '*');
             p1.Draw();
 
-            Point p2 = new();
-            p2.x = 4;
-            p2.y = 5;
-            p2.sym = '#';
+            Point p2 = new(4, 5, '#');
             p2.Draw(); 
             
 
